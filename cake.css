@@ -1,0 +1,220 @@
+
+body{
+    background-color:black;
+}
+.first{
+    height:100px;
+}
+.first img{
+    height:100px;
+    width:130px;
+}
+.header{
+    background-color:black;
+}
+
+
+.section img{
+    height:100px;
+    width:100%;
+}
+#carouselExampleIndicators .carousel-item img {
+    object-fit: cover;
+    object-position: center;
+    height: 80vh;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+.second
+
+
+{
+    height:300px;
+    font-family: 'Alkatra', cursive;
+    
+    background-color: rgb(8, 8, 8);
+    margin-top: 20px;
+   width:100%;
+    
+
+}
+
+
+.second h2{
+    color:rgb(163, 123, 23)
+}
+.second p{
+    color:white;
+object-fit: cover;
+    
+}
+/* .third{
+    height:400px;
+    background-color:black;;
+}
+.third img{
+    
+    width:100%;
+    object-fit: cover;
+    object-position: center;
+    height:200px;
+    overflow: hidden;
+    padding:30px;
+}
+.third div{
+    height:200px;
+    width:260px;
+}
+.third h5{
+    display: flex;
+    justify-content: center;
+    color:white;
+
+}
+.third h6{
+    display: flex;
+    justify-content: center;
+    color:white; 
+}
+.four{
+    margin-top: 0px;
+} */
+
+.card h5,h6{
+    display:flex;
+    justify-content: center;
+    font-family: 'Alkatra', cursive;
+    font-weight: bold;
+    
+}
+
+    .card{
+    background-color: white;
+    color:rgb(0, 0, 0);
+    height:40vh;
+    cursor: pointer;
+    padding:10px;
+    margin:5px;
+        
+
+   
+    
+    
+    }
+    .card img{
+    width: 100%; /* or any custom size */
+  
+    object-fit: contain;
+    max-width:500px;
+       
+        
+    
+
+    }
+    .card:hover{
+        background-color: rgb(22, 21, 21);
+        transform: translateY(-5px);
+        color: white;
+    }
+ 
+    .third{
+        
+    width:100%;
+    margin-top: 30px;;
+    height:50vh;
+    display:grid;
+    grid-template: repeat(4, 1fr) / repeat(5, 1fr);
+    /* grid-template-columns:repeat(3,500px); if we use this we dont grt responsive */
+    /* grid-template-columns: repeat(auto-fit,minmax(180px,1fr)); */
+    overflow:visible;
+
+    }
+    .parent-third{
+        height:800px;
+        
+    }
+    h1{
+        display:flex;
+        justify-content: center;
+      font-family: 'Alkatra', cursive; 
+      
+      color:white;
+      margin-top: 40px;
+    }
+
+
+
+
+.fourth{
+   
+    margin-top: auto;
+    
+    background-color:black;    
+}
+.fourth img{
+    height:400px;
+    
+    width:400px;
+
+}
+
+
+
+.card2 h1{
+    font-family: 'Alkatra', cursive; 
+    color:rgb(163, 123, 23);
+    font-weight: bolder;
+}
+.card2 p{
+    color:white;
+}
+
+
+.fifth{
+width: 100%;
+margin-top: 30px;
+}
+.innerfifth{
+    position:absolute;
+    margin-top: -350px;
+     overflow-y:scroll; 
+     height:500px ;
+     max-width:800px;
+      width:100%;
+       background-color:rgb(27, 26, 25);
+       border-radius: 23px;
+       color:white;
+}
+   
+
+.sixth{
+margin-top: 40px;
+justify-items: center;
+
+height:400px;
+width:100%;
+background-color:black;
+}
+.innersix2{
+    
+    background-color:rgb(91, 128, 128);
+     border-radius: 45%;height: 300px;
+     display:flex;
+     justify-content: center;
+   
+}
+button{
+    align-items: center;
+}
+
+
